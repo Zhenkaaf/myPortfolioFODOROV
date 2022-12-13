@@ -7,7 +7,6 @@ const Layout = () => {
   return (
     <div className="app">
       <Navbar />
-      <p>gogog</p>
       <Outlet />
     </div>
   )

@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+   
+    .wrapper {
+        background-color: #efa286;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 30px;
+        height: 70px;
+        
+
+        .logo {
+            background-color: yellow;
+        }
+
+        .menu {
+            background-color: crimson;
+            display: flex;
+            gap: 20px;
+
+            .menu__item {
+
+
+                .menu__link {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .social {
+            background-color: magenta;
+        }
+    }
+}

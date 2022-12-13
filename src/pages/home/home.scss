@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    height: 100vh;
+
+    .wrapper {
+        height: calc(100vh - 70px);
+        position: relative;
+        top: 70px;
+        display: flex;
+        width: 100%;
+
+        .left {
+            background-color: blue;
+            flex: 1;
+    
+            .photo {
+    
+                .photo__img {
+    
+                }
+            }
+        }
+    
+        .right {
+            
+            background-color: yellow;
+            flex: 1;
+    
+            .description {
+    
+                .description__title {
+    
+                    span {
+                        color: crimson;
+                    }
+                }
+    
+                .description__text {
+    
+                }
+            }
+        }
+    }
+
+    
+}
