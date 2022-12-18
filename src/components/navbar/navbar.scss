@@ -2,37 +2,125 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 3;
     
    
     .wrapper {
-        background-color: #efa286;
+        /* background-color: #efa286; */
+        /* background-image: url('./../../img/head.png'); */
+        background-color: black;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0px 30px;
         height: 70px;
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
+        @media (max-width: 480px) {
+            justify-content: flex-end;
+        }
         
 
         .logo {
-            background-color: yellow;
+            @media (max-width: 768px) {
+                display: none;
+            }
+
+            &__link {
+                text-decoration: none;
+                color: #fff;
+                font-size: 30px;
+                cursor: pointer;
+
+                &:hover {
+                    color: crimson;
+                }
+            }
         }
 
         .menu {
-            background-color: crimson;
             display: flex;
             gap: 20px;
+            @media (max-width: 480px) {
+                display: none;
+            }
 
             .menu__item {
+                
 
 
                 .menu__link {
                     text-decoration: none;
+                   /*  color: black; */
+                    color: #fff;
+                    font-size: 20px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: crimson;
+                    }
                 }
             }
         }
 
         .social {
-            background-color: magenta;
+           display: flex;
+           gap: 15px;
+           a {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                color: crimson;
+            }
+           }
+           p {
+            color: #fff;
+            font-size: 20px;
+           }
+           
+            @media (max-width: 960px) {
+                display: none;
+            }
+        }
+        
+        .hamburger {
+            display: none;
+            @media (max-width: 480px) {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 34px;
+                height: 27px;
+            }
+           
+
+            span {
+                width: 100%;
+                height: 3px;
+                background-color: #fff;
+                transform-origin: left;
+                transition: all 0.5s ease;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    &.active {
+
+        .hamburger {
+
+            span {
+                &:first-child {
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    transform: rotate(-45deg);
+                }
+            }
         }
     }
 }
