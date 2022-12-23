@@ -48,6 +48,7 @@
                 .photo__background {
                     width: 70vh;
                     height: 70vh;
+                    overflow: hidden;
                     /* background-color: crimson; */
                     border-radius: 50%;
                     display: flex;
@@ -73,7 +74,7 @@
                     } */
 
                     .photo__img {
-                        height: 80%;
+                        height: 125%;
                        
                         
                     }

@@ -2,7 +2,7 @@ import './home.scss';
 import { init } from 'ityped';
 import { useEffect } from 'react';
 import { useRef } from 'react';
-import me from './../../img/me.jpg';
+import me from './../../img/fromL.png';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Home = () => {
