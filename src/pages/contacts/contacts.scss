@@ -1,23 +1,152 @@
 .contacts {
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+    top: 70px;
+    position: relative;
+    
 
     .wrapper {
-        height: calc(100vh - 70px);
-        position: relative;
-        top: 70px;
+        background-color: gray;
+        background-image: url('./../../img/1616558234_7-p-matritsa-fon-12.jpg');
+        flex: 1;
         display: flex;
-        width: 100%;
-
+        background-size: cover;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+       
         .description {
-            font-size: 20px;
+            font-size: 40px;
+            text-align: center;
+            margin: 40px 0px 60px 0px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            /* font-family: 'Fredoka One', cursive; */
+            @media (max-width: 1280px) {
+                font-size: 30px;
+            }
+            @media (max-width: 960px) {
+                font-size: 25px;
+            }
+            @media (max-width: 768px) {
+                font-size: 40px;
+            }
+            @media (max-width: 480px) {
+                font-size: 28px;
+            }
         }
         .left {
-            flex: 1;
+            flex: 1 1 50%;
+           
+            &__body {
+                display: flex;
+                justify-content: center;
+
+              .info {
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .info__item {
+                        font-size: 30px;
+                        background-color: #fff;
+                        color: black;
+                        margin-bottom: 40px;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        height: 40px;
+                        @media (max-width: 1280px) {
+                            font-size: 25px;
+                        }
+                        @media (max-width: 480px) {
+                            font-size: 20px;
+                        }
+                        
+
+                        &:hover {
+                            background-color: crimson;
+                        }
+                       
+                        .info__icon {
+                            font-size: 35px;
+                            padding: 0px 10px 0px 10px;
+                           /*  position: relative;
+                            top: 3px;
+                            left: 5px; */
+                           
+                         }
+                    }
+              }
+            }
         }
 
         .right {
-            flex: 1;
+            flex: 1 1 50%;
+          
+            &__body {
+                display: flex;
+                justify-content: center;
+                
+                form {
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                   
+                    label {
+                       padding: 0px 0px 5px 10px;
+                       font-size: 22px;
+                       color: #fff;
+                    }
+
+                    input, textarea {
+                        box-sizing: border-box;
+                        width: 100%;
+                        height: 40px;
+                        padding: 0px 10px;
+                        border-radius: 5px;
+                        border: none;
+                        font-size: 16px;
+                        margin-bottom: 40px;
+                    }
+
+                    textarea {
+                        height: 120px;
+                        padding: 10px 10px;
+                        font-size: 18px;
+                    }
+
+                    button {
+                        background-color: #fff;
+                        width: 200px;
+                        padding: 10px;
+                        text-align: center;
+                        margin: 0px auto;
+                        margin-bottom: 40px;
+                        border-radius: 5px;
+                        border: none;
+                        cursor: pointer;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            background-color: crimson;
+                        }
+                    }
+
+                    span {
+                        color: green;
+                        font-size: 30px;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
         }
     }
 }
