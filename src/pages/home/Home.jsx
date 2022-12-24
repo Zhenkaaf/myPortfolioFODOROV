@@ -3,7 +3,7 @@ import { init } from 'ityped';
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import me from './../../img/fromL.png';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const Home = () => {
 
@@ -22,10 +22,8 @@ const Home = () => {
         <div className="home">
             <div className="wrapper">
                 <div className="left">
-                    <div className="photo">
-                        <div className="photo__background">
-                            <img className="photo__img" src={me} alt="" />
-                        </div>
+                    <div className="photo__background">
+                        <img className="photo__img" src={me} alt="" />
                     </div>
                 </div>
                 <div className="right">
@@ -36,8 +34,8 @@ const Home = () => {
                             <p className="info__text">as a Junior Trainee Front-end developer (React)</p>
                         </div>
                         <div className="info__bottom">
-                            <p className="info__text bottom_text">You can download my CV by clicking button under:</p>
-                            <KeyboardArrowDownIcon className="info__img"/>
+                            <p className="info__text bottom_text">You can download my CV by clicking button:</p>
+                            <ArrowForwardIosIcon className="info__icon" />
                             <div className="info__cv">
                                 <a href="https://drive.google.com/file/d/11uvOkR0Kuz4af_Ezj6ze-hYMAzZ-PJUy/view?usp=sharing" download target='_blank'>Download CV</a>
                             </div>

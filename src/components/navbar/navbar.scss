@@ -11,10 +11,10 @@
         background-color: black;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0px 30px;
         height: 70px;
-        @media (max-width: 768px) {
+        @media (max-width: 960px) {
             justify-content: center;
         }
         @media (max-width: 480px) {
