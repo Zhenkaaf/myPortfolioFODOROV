@@ -1,12 +1,91 @@
 .learn {
-    display: flex;
-    height: 100vh;
+    background-image: url('./../../img/bac6.jpg');
 
-    .wrapper {
-        height: calc(100vh - 70px);
-        position: relative;
-        top: 70px;
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
         display: flex;
-        width: 100%;
+        flex-direction: column;
+        padding: 70px 50px 50px 50px;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    &__desc {
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        margin-top: 20px;
+        max-width: 1024px;
+        text-align: center;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            background-color: #fff;
+            flex-direction: row;
+            display: flex;
+            margin-top: 60px;
+            padding: 20px;
+            border-radius: 5px;
+            height: 400px;
+            box-sizing: border-box;
+
+            &__img {
+                overflow: hidden;
+                flex: 1 0 60%;
+                border: 15px solid black;
+                border-radius: 5px;
+
+                img {
+                    width: 100%;
+                    transition: all 10s ease;
+
+                    &:hover {
+                        transform: translateY(-100%);
+                    }
+                }
+            }
+
+            &__info {
+                /*   flex: 1 1 auto; */
+                padding-left: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            &__desc {
+                margin-bottom: 20px;
+                overflow-y: auto;
+            }
+
+            &__links {
+              /*  display: flex; */
+            }
+
+            &__link {
+                text-decoration: none;
+                box-sizing: border-box;
+                /*  background-color: #efa286;
+                color: #fff; */
+                color: black;
+                border: 5px solid black;
+                width: 100%;
+                padding: 5px;
+                margin-top: 10px;
+                text-align: center;
+                /* display: flex;
+                    justify-content: center; */
+                border-radius: 5px;
+                cursor: pointer;
+
+            }
+        }
     }
 }
