@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myPortfolioFODOROV/static/css/main.2dbc501c.css",
+    "main.css": "/myPortfolioFODOROV/static/css/main.ed8c9d74.css",
     "main.js": "/myPortfolioFODOROV/static/js/main.5b359eb7.js",
     "static/js/787.28cb0dcd.chunk.js": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js",
     "static/media/11.png": "/myPortfolioFODOROV/static/media/11.bf2c24b9b67ae97b7a1f.png",
@@ -10,12 +10,12 @@
     "static/media/bac6.jpg": "/myPortfolioFODOROV/static/media/bac6.d22938b8ac7f64fb4a74.jpg",
     "static/media/net.jpg": "/myPortfolioFODOROV/static/media/net.dcc2c6d4b18bfdef5f15.jpg",
     "index.html": "/myPortfolioFODOROV/index.html",
-    "main.2dbc501c.css.map": "/myPortfolioFODOROV/static/css/main.2dbc501c.css.map",
+    "main.ed8c9d74.css.map": "/myPortfolioFODOROV/static/css/main.ed8c9d74.css.map",
     "main.5b359eb7.js.map": "/myPortfolioFODOROV/static/js/main.5b359eb7.js.map",
     "787.28cb0dcd.chunk.js.map": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dbc501c.css",
+    "static/css/main.ed8c9d74.css",
     "static/js/main.5b359eb7.js"
   ]
 }
