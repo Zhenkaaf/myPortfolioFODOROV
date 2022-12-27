@@ -10,15 +10,13 @@ const Learn = () => {
                 <div className="learn__items">
                     <div className="learn__item item">
                         <div className="item__img">
-                            <a /* className="item__link" */ target='_blank' href="https://zhenkaaf.github.io/LamaReactPortfolioWebsite/"><img src={ff} alt="" /></a>
+                            <a className='aaa' target='_blank' href="https://zhenkaaf.github.io/LamaReactPortfolioWebsite/"><img /* src={ff} */ src='https://images.pexels.com/photos/5702958/pexels-photo-5702958.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt="" /></a>
                         </div>
                         <div className="item__info">
                             <p className="item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, error maxime dolorem beatae itaque cumque repudiandae quam corrupti tempore architecto velit recusandae, alias impedit odit iusto incidunt molestias harum sequi!Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
-                           {/*  <div className="item__links"> */}
-                                <a className="item__link" href="">visit site</a>
-                                <a className="item__link" href="">link to gitHub</a>
-                          {/*   </div> */}
+                                <a className="item__link" href="">Visit website</a>
+                                <a className="item__link" href="">Link to gitHub</a>
                         </div>
                     </div>
                 </div>
