@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/myPortfolioFODOROV/static/css/main.a2999d52.css",
-    "main.js": "/myPortfolioFODOROV/static/js/main.e4eada62.js",
+    "main.js": "/myPortfolioFODOROV/static/js/main.51c4e2aa.js",
     "static/js/787.28cb0dcd.chunk.js": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js",
-    "static/media/11.png": "/myPortfolioFODOROV/static/media/11.bf2c24b9b67ae97b7a1f.png",
+    "static/media/firLearn.png": "/myPortfolioFODOROV/static/media/firLearn.3dd96fef1ba42d471737.png",
     "static/media/aa.jpg": "/myPortfolioFODOROV/static/media/aa.b775c00c88e7209a474a.jpg",
     "static/media/1616558234_7-p-matritsa-fon-12.jpg": "/myPortfolioFODOROV/static/media/1616558234_7-p-matritsa-fon-12.bfef84f5cf26d3fc3dd5.jpg",
     "static/media/fromL.png": "/myPortfolioFODOROV/static/media/fromL.243804825ef10b6ad779.png",
@@ -11,11 +11,11 @@
     "static/media/net.jpg": "/myPortfolioFODOROV/static/media/net.dcc2c6d4b18bfdef5f15.jpg",
     "index.html": "/myPortfolioFODOROV/index.html",
     "main.a2999d52.css.map": "/myPortfolioFODOROV/static/css/main.a2999d52.css.map",
-    "main.e4eada62.js.map": "/myPortfolioFODOROV/static/js/main.e4eada62.js.map",
+    "main.51c4e2aa.js.map": "/myPortfolioFODOROV/static/js/main.51c4e2aa.js.map",
     "787.28cb0dcd.chunk.js.map": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2999d52.css",
-    "static/js/main.e4eada62.js"
+    "static/js/main.51c4e2aa.js"
   ]
 }
