@@ -10,7 +10,6 @@ const Home = () => {
     const textRef = useRef();
     useEffect(() => {
         init(textRef.current, {
-            showCursor: false,
             backDelay: 1000,
             typeSpeed: 250,
             showCursor: true,
@@ -37,7 +36,7 @@ const Home = () => {
                             <p className="info__text bottom_text">You can download my CV by clicking button:</p>
                             <ArrowForwardIosIcon className="info__icon" />
                             <div className="info__cv">
-                                <a href="https://drive.google.com/file/d/11uvOkR0Kuz4af_Ezj6ze-hYMAzZ-PJUy/view?usp=sharing" download target='_blank'>Download CV</a>
+                                <a rel="noreferrer" href="https://drive.google.com/file/d/11uvOkR0Kuz4af_Ezj6ze-hYMAzZ-PJUy/view?usp=sharing" download target='_blank'>Download CV</a>
                             </div>
                         </div>
                     </div>
