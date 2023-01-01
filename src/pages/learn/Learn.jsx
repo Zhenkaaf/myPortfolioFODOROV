@@ -1,24 +1,28 @@
 import './learn.scss';
-import ff from './../../img/11.png';
+import { learnProjects } from '../../data/learnProjects';
 
 const Learn = () => {
     return (
         <div className="learn">
             <div className="container">
-                <p className="learn__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. A libero veniam omnis aspernatur. Veritatis voluptatem illo, nihil quibusdam deserunt odit fuga est perferendis eum quas architecto, eaque labore, in neque!
+                <p className="learn__desc">As one of ways of learning I watch videos on youtube about how other people create websites and just repeat for them.
+                    During repeating I learn new ways and methods of solving tasks.
+                    Also sometimes I find that some code doesn't work or outdated. So I need to google and figure out how this code works for today. I think that it is good practice for me. And based on this practice I can do similar things.
+                    <hr />Below you can see some of my repeated projects
                 </p>
                 <div className="learn__items">
-                    <div className="learn__item item">
-                        <div className="item__img">
-                            <a className='aaa' target='_blank' href="https://zhenkaaf.github.io/LamaReactPortfolioWebsite/"><img /* src={ff} */ src='https://images.pexels.com/photos/5702958/pexels-photo-5702958.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt="" /></a>
+                    {learnProjects.map(item => (
+                        <div className="learn__item item" key={item.id}>
+                            <div className="item__img">
+                                <a target='_blank' rel="noreferrer" href={item.link}><img src={item.img} alt="" /></a>
+                            </div>
+                            <div className="item__info">
+                                <p className="item__desc">{item.description}</p>
+                                <a className="item__link" rel="noreferrer" target='_blank' href={item.link}>Visit website</a>
+                                <a className="item__link" rel="noreferrer" target='_blank' href={item.gitHubLink}>Link to gitHub</a>
+                            </div>
                         </div>
-                        <div className="item__info">
-                            <p className="item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, error maxime dolorem beatae itaque cumque repudiandae quam corrupti tempore architecto velit recusandae, alias impedit odit iusto incidunt molestias harum sequi!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                                <a className="item__link" href="">Visit website</a>
-                                <a className="item__link" href="">Link to gitHub</a>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

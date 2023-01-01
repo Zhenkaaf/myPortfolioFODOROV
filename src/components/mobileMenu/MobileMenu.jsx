@@ -5,7 +5,7 @@ import './mobileMenu.scss';
 const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
     return (
-        <div className={"mobileMenu " + (menuOpen && "active")}>
+        <div className={"mobileMenu " + (menuOpen && "activeMobile")}>
             <ul>
                 <li onClick={() => setMenuOpen(false)}>
                     <Link className='mobileMenu__link' to='/'>Home</Link>

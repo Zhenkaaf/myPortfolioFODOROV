@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './navbar.scss';
 import EmailIcon from '@mui/icons-material/Email';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -8,24 +8,24 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Navbar = ({menuOpen, setMenuOpen}) => {
     
     return (
-        <div className={"navbar " + (menuOpen && "active")}>
+        <div className={"navbar " + (menuOpen && "activeMobile")}>
             <div className="wrapper">
                {/*  <div className="logo"><Link className='logo__link' to='/'>Fodorov</Link></div> */}
                 <nav className="menu">
                     <div className="menu__item">
-                        <Link className='menu__link' to='/'>Home</Link>
+                        <NavLink className='menu__link' to='/'>Home</NavLink>
                     </div>
                     <div className="menu__item">
-                        <Link className='menu__link' to='/works'>Works</Link>
+                        <NavLink className='menu__link' to='/works'>Works</NavLink>
                     </div>
                     <div className="menu__item">
-                        <Link className='menu__link' to='/learn'>How I learn</Link>
+                        <NavLink className='menu__link' to='/learn'>How I learn</NavLink>
                     </div>
                     <div className="menu__item">
-                        <Link className='menu__link' to='/contacts'>Contacts</Link>
+                        <NavLink className='menu__link' to='/contacts'>Contacts</NavLink>
                     </div>
                     <div className="menu__item">
-                        <Link className='menu__link' to='/about'>About</Link>
+                        <NavLink className='menu__link' to='/about'>About</NavLink>
                     </div>
                 </nav>
                 <div className="social">
