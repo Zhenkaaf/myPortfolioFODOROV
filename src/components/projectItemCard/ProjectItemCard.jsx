@@ -9,6 +9,7 @@ const ProjectItemCard = ({ item }) => {
             </div>
             <div className="item__info">
                 <p className="item__desc">{item.description}</p>
+                {item.linkToRequrements &&  <a className="item__link" rel="noreferrer" target='_blank' href={item.linkToRequirements}>Requirements</a>}
                 <a className="item__link" rel="noreferrer" target='_blank' href={item.link}>Visit website</a>
                 <a className="item__link" rel="noreferrer" target='_blank' href={item.gitHubLink}>Link to gitHub</a>
             </div>
