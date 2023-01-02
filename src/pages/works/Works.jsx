@@ -10,7 +10,7 @@ const Works = () => {
                 </p>
                 <div className="works__items">
                     {worksProjects.map(item => (
-                         <ProjectItemCard item={item}/>
+                         <ProjectItemCard item={item} key={item.id}/>
                     ))}
                 </div>
             </div>

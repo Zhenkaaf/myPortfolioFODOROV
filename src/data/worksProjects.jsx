@@ -1,5 +1,5 @@
 import worksImg1 from './../img/w1.png';
-
+import worksImg2 from './../img/w2.png';
 export const worksProjects = [
     {
         id: 1,
@@ -11,9 +11,9 @@ export const worksProjects = [
     },
     {
         id: 2,
-        img: "https://images.pexels.com/photos/14019519/pexels-photo-14019519.jpeg?auto=compress&cs=tinysrgb&w=600",
+        img: worksImg2,
         link: 'https://zhenkaaf.github.io/myPortfolioFODOROV/',
-        description: "bla bla",
+        description: 'This is my portfolio website. It is completely my idea, implemented on my knowledges, that I got during repeating learn projects. For animation I used "iTyped". For sending emails I used "Email.js".',
         gitHubLink: 'https://github.com/Zhenkaaf/myPortfolioFODOROV',
     }
 ]
