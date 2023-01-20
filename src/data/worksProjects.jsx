@@ -1,5 +1,6 @@
 import worksImg1 from './../img/w1.png';
 import worksImg2 from './../img/w2.png';
+import worksImg3 from './../img/w3.png';
 export const worksProjects = [
     {
         id: 1,
@@ -15,5 +16,12 @@ export const worksProjects = [
         link: 'https://zhenkaaf.github.io/myPortfolioFODOROV/',
         description: 'This is my portfolio website. It is completely my idea, implemented on my knowledges, that I got during repeating learn projects. For animation I used "iTyped". For sending emails I used "Email.js".',
         gitHubLink: 'https://github.com/Zhenkaaf/myPortfolioFODOROV',
+    },
+    {
+        id: 3,
+        img: worksImg3,
+        link: 'https://zhenkaaf.github.io/accordionReact/',
+        description: 'Simple accordion',
+        gitHubLink: 'https://github.com/Zhenkaaf/accordionReact',
     }
 ]
