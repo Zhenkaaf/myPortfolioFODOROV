@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolioFODOROV/static/css/main.f93c9283.css",
-    "main.js": "/myPortfolioFODOROV/static/js/main.a30a2a3e.js",
+    "main.js": "/myPortfolioFODOROV/static/js/main.30726e36.js",
     "static/js/787.28cb0dcd.chunk.js": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js",
     "static/media/l1.png": "/myPortfolioFODOROV/static/media/l1.3dd96fef1ba42d471737.png",
     "static/media/w2.png": "/myPortfolioFODOROV/static/media/w2.d0a4fd2e9ff18e5f0482.png",
@@ -12,15 +12,15 @@
     "static/media/fromL.png": "/myPortfolioFODOROV/static/media/fromL.243804825ef10b6ad779.png",
     "static/media/backLearn.jpg": "/myPortfolioFODOROV/static/media/backLearn.58b3b64399c816fe0070.jpg",
     "static/media/bac6.jpg": "/myPortfolioFODOROV/static/media/bac6.d22938b8ac7f64fb4a74.jpg",
-    "static/media/w3.png": "/myPortfolioFODOROV/static/media/w3.b2621f9b36fc3c7fde92.png",
     "static/media/net.jpg": "/myPortfolioFODOROV/static/media/net.dcc2c6d4b18bfdef5f15.jpg",
+    "static/media/w3.png": "/myPortfolioFODOROV/static/media/w3.763330e6fa41e7a9dd90.png",
     "index.html": "/myPortfolioFODOROV/index.html",
     "main.f93c9283.css.map": "/myPortfolioFODOROV/static/css/main.f93c9283.css.map",
-    "main.a30a2a3e.js.map": "/myPortfolioFODOROV/static/js/main.a30a2a3e.js.map",
+    "main.30726e36.js.map": "/myPortfolioFODOROV/static/js/main.30726e36.js.map",
     "787.28cb0dcd.chunk.js.map": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f93c9283.css",
-    "static/js/main.a30a2a3e.js"
+    "static/js/main.30726e36.js"
   ]
 }
