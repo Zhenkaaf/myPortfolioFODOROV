@@ -23,8 +23,11 @@
             width: 100%;
             transition: all 10s ease;
             
-            &:hover {
-                transform: translateY(-100%);
+            
+            @media (min-width: 1024px) {
+                &:hover {
+                    transform: translateY(-100%);
+                } 
             }
         }
     }
