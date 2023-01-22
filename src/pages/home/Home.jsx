@@ -13,7 +13,7 @@ const Home = () => {
             backDelay: 1000,
             typeSpeed: 250,
             showCursor: true,
-            strings: ['work or', 'internship']
+            strings: ['job or', 'internship']
         })
     }, [])
     //<p className="info__text">I'm looking for a Junior Trainee Front-end developer (React)</p>
@@ -36,7 +36,7 @@ const Home = () => {
                             <p className="info__text bottom_text">You can download my CV by clicking button:</p>
                             <ArrowForwardIosIcon className="info__icon" />
                             <div className="info__cv">
-                                <a rel="noreferrer" href="https://drive.google.com/file/d/11uvOkR0Kuz4af_Ezj6ze-hYMAzZ-PJUy/view?usp=sharing" download target='_blank'>Download CV</a>
+                                <a rel="noreferrer" href="https://drive.google.com/file/d/1aopgE35JQzQopyS-h8R1X5AQoSoFe_S-/view?usp=share_link" download target='_blank'>Download CV</a>
                             </div>
                         </div>
                     </div>
