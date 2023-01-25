@@ -30,7 +30,7 @@ const Home = () => {
                         <div className="info__top">
                             <h2 className="info__title">Hi! I'm Yevhen Fodorov</h2>
                             <p className="info__text">I'm looking for <span ref={textRef}></span></p>
-                            <p className="info__text">as a Junior Trainee Front-end developer (React)</p>
+                            <p className="info__text">as a Junior Front-end developer (React)</p>
                         </div>
                         <div className="info__bottom">
                             <p className="info__text bottom_text">You can download my CV by clicking button:</p>
