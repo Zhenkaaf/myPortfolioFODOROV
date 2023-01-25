@@ -8,6 +8,7 @@ import Projects from "./pages/projects/Projects";
 import './app.scss'
 import { useState } from "react";
 import MobileMenu from "./components/mobileMenu/MobileMenu";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 const Layout = () => {
 
@@ -15,6 +16,7 @@ const Layout = () => {
 
   return (
     <div className="app">
+      <ScrollToTop/>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Outlet />
