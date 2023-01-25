@@ -1,10 +1,10 @@
 import Navbar from "./components/navbar/Navbar";
-import { createBrowserRouter, RouterProvider, Outlet, createHashRouter } from "react-router-dom";
+import { RouterProvider, Outlet, createHashRouter } from "react-router-dom";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Contacts from "./pages/contacts/Contacts";
 import Learn from "./pages/learn/Learn";
-import Works from "./pages/works/Works";
+import Projects from "./pages/projects/Projects";
 import './app.scss'
 import { useState } from "react";
 import MobileMenu from "./components/mobileMenu/MobileMenu";
@@ -37,8 +37,8 @@ const router = createHashRouter([
         element: <About />
       },
       {
-        path: '/works',
-        element: <Works />
+        path: '/projects',
+        element: <Projects />
       },
       {
         path: '/learn',

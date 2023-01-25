@@ -1,14 +1,14 @@
-import './works.scss';
+import './projects.scss';
 import { worksProjects } from '../../data/worksProjects';
 import ProjectItemCard from '../../components/projectItemCard/ProjectItemCard';
 
-const Works = () => {
+const Projects = () => {
     return (
-        <div className="works">
+        <div className="projects">
             <div className="container">
-                <p className="works__desc">On this page you can see my own projects. Some of them are real test tasks, from IT companies, which I have completed. And some of them are my realized ideas. 
+                <p className="projects__desc">On this page you can see my own realized projects and ideas.
                 </p>
-                <div className="works__items">
+                <div className="projects__items">
                     {worksProjects.map(item => (
                          <ProjectItemCard item={item} key={item.id}/>
                     ))}
@@ -17,4 +17,4 @@ const Works = () => {
         </div>
     )
 }
-export default Works;
+export default Projects;

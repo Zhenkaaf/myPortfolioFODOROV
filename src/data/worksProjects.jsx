@@ -1,27 +1,20 @@
 import worksImg1 from './../img/w1.png';
 import worksImg2 from './../img/w2.png';
-import worksImg3 from './../img/w3.png';
+
 export const worksProjects = [
     {
         id: 1,
         img: worksImg1,
         link: 'https://zhenkaaf.github.io/chatFirebaseFODOROV/',
-        description: "Real test task from IT company",
+        description: 'Based on requirements that I found on web, implemented chat. For login and store data I used "Firebase". For generation automatic answer-message in chat I used "Chuck Norris Api". Learnt "createContext" method and two hooks "useContext" and "useReducer".',
         gitHubLink: 'https://github.com/Zhenkaaf/chatFirebaseFODOROV',
-        linkToRequrements: 'https://drive.google.com/file/d/11wO1JiRkHl2-35jVkMeZMXaIV93uoad1/view?usp=sharing'
+        linkToRequrements: 'https://drive.google.com/file/d/18KIvWQLOTE7VkNEHj_mlOy1NuOpxS0AQ/view?usp=sharing'
     },
     {
         id: 2,
         img: worksImg2,
         link: 'https://zhenkaaf.github.io/myPortfolioFODOROV/',
-        description: 'This is my portfolio website. It is completely my idea, implemented on my knowledges, that I got during repeating learn projects. For animation I used "iTyped". For sending emails I used "Email.js".',
+        description: 'My portfolio website - completely my idea, implemented on my knowledges. For navigate between pages I used "ReactRouter" library. For sending emails I used "Email.js", for text typing effect I used "Typed.js". Added some icons using "Material UI", for describing styles I used "SCSS" preprocessor. Also used such hooks like "useEffect", "UseState", "useRef".',
         gitHubLink: 'https://github.com/Zhenkaaf/myPortfolioFODOROV',
-    },
-    {
-        id: 3,
-        img: worksImg3,
-        link: 'https://zhenkaaf.github.io/accordionReact/',
-        description: 'Simple accordion',
-        gitHubLink: 'https://github.com/Zhenkaaf/accordionReact',
     }
 ]

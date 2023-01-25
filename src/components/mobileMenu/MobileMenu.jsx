@@ -11,7 +11,7 @@ const MobileMenu = ({menuOpen, setMenuOpen}) => {
                     <Link className='mobileMenu__link' to='/'>Home</Link>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <Link className='mobileMenu__link' to='/works'>Works</Link>
+                    <Link className='mobileMenu__link' to='/projects'>My projects</Link>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <Link className='mobileMenu__link' to='/learn'>How I learn</Link>

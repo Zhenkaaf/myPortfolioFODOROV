@@ -8,7 +8,7 @@ const About = () => {
         {
             id: 1,
             question: 'Tell us about yourself ?',
-            answer: 'Hi! I am from Kharkiv, Ukraine. I study web-development, now I am mostly focusing on learning React and JS. My main goal is to find a job or internship as a junior / trainee frontend react developer and continue to develop in this direction. I am determined to fulfill my intention and become a programmer. I strictly decided this for myself and I am not ready for alternative. I want to find such company where I will be useful and where I will have the opportunity to learn, develop and improve my skills.'
+            answer: 'Hi! I am from Kharkiv, Ukraine. I want to find such company where I will be useful and where I will have the opportunity to learn, develop and improve my skills. I have experience of work online in a team of 10 people. I successfully completed QA course from AltexSoftLab where I learned about software development life cukle, methods of testing, requirements, Scrum methodology and other concepts useful for web developer also. After this course I got job offer. But Frontend development turned more interesting for me. I learned HTML, CSS/SCSS, JS, React by myself on such level that I could wrote few my own projects and some of them I deployed on GitHub Pages. I have practical experience of work with such technologies and libraries like "Redux", "Firebase", "Axios", "Formik", "Email.js", "Typed.js", "Git". I consistently study something new, now it is "TypeScript" and "CMS Strapi". I am assiduous, responsible and with a strong desire to develop as a Frontend developer.'
         },
         {
             id: 2,
@@ -18,7 +18,7 @@ const About = () => {
         {
             id: 3,
             question: 'What have you been doing for the last 10 years ?',
-            answer: 'Some years ago I took a QA course from AltexSoft Lab company and during learning process I worked in a team from 10 people. All communication was online, so I have experience of work online. And I am familiar with such concepts like test cases, requirements, methods of testing, software development life cukle, Scrum methodology etc. Also I have experience in gardening, furniture and printing industry, in sales. I always worked in small teams. Recent years I worked at automotive factories in Poland, so I know Polish language a little bit.'
+            answer: 'I have experience in gardening, furniture and printing industry, in sales. I always worked in small teams. Recent years I worked at automotive factories in Poland, so I know Polish language a little bit.'
         },
         {
             id: 4,

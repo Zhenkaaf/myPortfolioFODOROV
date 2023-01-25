@@ -16,7 +16,7 @@ const Navbar = ({menuOpen, setMenuOpen}) => {
                         <NavLink className='menu__link' to='/'>Home</NavLink>
                     </div>
                     <div className="menu__item">
-                        <NavLink className='menu__link' to='/works'>Works</NavLink>
+                        <NavLink className='menu__link' to='/projects'>My projects</NavLink>
                     </div>
                     <div className="menu__item">
                         <NavLink className='menu__link' to='/learn'>How I learn</NavLink>
