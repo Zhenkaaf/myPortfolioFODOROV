@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/myPortfolioFODOROV/static/css/main.411c1ee7.css",
-    "main.js": "/myPortfolioFODOROV/static/js/main.bcdabcdc.js",
+    "main.css": "/myPortfolioFODOROV/static/css/main.60d1d6ee.css",
+    "main.js": "/myPortfolioFODOROV/static/js/main.119fd9a9.js",
     "static/js/787.28cb0dcd.chunk.js": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js",
     "static/media/w2.png": "/myPortfolioFODOROV/static/media/w2.f9b059c75cc4fe99a959.png",
     "static/media/l1.png": "/myPortfolioFODOROV/static/media/l1.dda001d8d7f67f44e486.png",
     "static/media/aa.jpg": "/myPortfolioFODOROV/static/media/aa.b775c00c88e7209a474a.jpg",
-    "static/media/w3.png": "/myPortfolioFODOROV/static/media/w3.4eae7a8c9fbbbe80c37d.png",
     "static/media/fromL.png": "/myPortfolioFODOROV/static/media/fromL.243804825ef10b6ad779.png",
     "static/media/backLearn.jpg": "/myPortfolioFODOROV/static/media/backLearn.58b3b64399c816fe0070.jpg",
     "static/media/contactsBac.jpg": "/myPortfolioFODOROV/static/media/contactsBac.bccbc0e546eaf9affbf0.jpg",
@@ -15,12 +14,12 @@
     "static/media/l2.png": "/myPortfolioFODOROV/static/media/l2.ddc559f0c2c42ebe639c.png",
     "static/media/w1.png": "/myPortfolioFODOROV/static/media/w1.c3a918ba549dd721f29f.png",
     "index.html": "/myPortfolioFODOROV/index.html",
-    "main.411c1ee7.css.map": "/myPortfolioFODOROV/static/css/main.411c1ee7.css.map",
-    "main.bcdabcdc.js.map": "/myPortfolioFODOROV/static/js/main.bcdabcdc.js.map",
+    "main.60d1d6ee.css.map": "/myPortfolioFODOROV/static/css/main.60d1d6ee.css.map",
+    "main.119fd9a9.js.map": "/myPortfolioFODOROV/static/js/main.119fd9a9.js.map",
     "787.28cb0dcd.chunk.js.map": "/myPortfolioFODOROV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.411c1ee7.css",
-    "static/js/main.bcdabcdc.js"
+    "static/css/main.60d1d6ee.css",
+    "static/js/main.119fd9a9.js"
   ]
 }
