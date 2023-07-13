@@ -1,8 +1,8 @@
 .about {
     background-color: #efa286;
-    height: 100vh;
+    min-height: 100vh;
     .container {
-        padding: 100px 50px 50px 50px;
+        padding: 100px 50px 20px 50px;
         max-width: 1024px;
         margin: 0 auto;
         background-color: #efa286;
@@ -81,7 +81,7 @@
                         }
                     }
                     .activeAnswer {
-                        max-height: 170px; /* depending on answer length */
+                        max-height: 190px; /* depending on answer length */
                         padding-bottom: 5px;
                         @media (max-width: 1024px) {
                             max-height: 240px;
@@ -90,7 +90,7 @@
                             max-height: 320px;
                         }
                         @media (max-width: 480px) {
-                            max-height: 400px;
+                            max-height: 440px;
                         }
                     }
                 }
